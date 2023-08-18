@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>ZBANK LINK v1.1 Stable</string>
+	<key>CFBundleExecutable</key>
+	<string>ZBANK LINK v1.1 Stable</string>
+	<key>CFBundleIconFile</key>
+	<string>generated-3d3193a30aa6428eaecfaf1dfe751362d76d6da96b825d648be76b6a6947910c.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>ZBANK LINK v1.1 Stable</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ZBANK LINK v1.1 Stable</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
