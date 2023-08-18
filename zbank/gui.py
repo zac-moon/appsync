@@ -2,6 +2,10 @@ import tkinter as tk
 import socket
 from ttkthemes import ThemedStyle
 from tkinter import font
+import pync
+
+def notif(title, subtitle, message):
+    pync.notify(message, title=title, subtitle=subtitle)
 
 root = tk.Tk()
 root.title('ZBANK LINK - LOGIN')
@@ -51,6 +55,7 @@ def main(username):
             if conf == "Transfer Successful":
                 confLabel.config(text="Transfer Successful")
                 transferwin.destroy() 
+                notif('ZBANK LINK','Transfer Successfull',f'Your transfer of {amount} to {to} was successfully completed.')
             elif conf == "To Account Not Found":
                 confLabel.config(text='To Account Not Found')
             else:
